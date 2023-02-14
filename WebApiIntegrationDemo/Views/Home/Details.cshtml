@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model WebApiIntegrationDemo.Models.Movie
+
+<table class="table">
+    <thead>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Genre</th>
+        <th>Release Date</th>
+    </thead>
+    <tbody>
+        <td>@Model.Id</td>
+        <td>@Model.Title</td>
+        <td>@Model.Genre</td>
+        <td>@Model.ReleaseDate</td>
+    </tbody>
+</table>
